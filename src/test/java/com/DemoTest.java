@@ -16,6 +16,7 @@ public class DemoTest {
         while ((len=bis.read(buffer)) != -1) {
             bos.write(buffer, 0, len);
         }
+
         bis.close();
         bos.close();
     }
